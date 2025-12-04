@@ -1,0 +1,12 @@
+Postfix Expression: 4 55 + 62 23 - *     = 2301.00
+Postfix Expression: 7 + 5 -     Too few operands
+Postfix Expression: 12 15 10 5 + / /     = 12.00
+Postfix Expression: 12 15 6 6 - / /     Divide by zero issue
+Postfix Expression: 9 3 & 4 -     Contains a token error
+Postfix Expression: 5 7 + 15 - 3 *     = -9.00
+Postfix Expression: 3 5 * 9 - 16 2 *     Too few operators
+Postfix Expression: 8 5 * 9 - 16 2 * +     = 63.00
+Postfix Expression: 2 3 1 * - 9 -     = -10.00
+Postfix Expression: 1 2 3 + * 8 -     = -3.00
+Postfix Expression: 17 5 * 10 5 / -     = 83.00
+Postfix Expression: 17 5 * 10 - 5 /     = 15.00
