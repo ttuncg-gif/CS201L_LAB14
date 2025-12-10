@@ -1,8 +1,6 @@
 import java.io.*;
 import java.text.DecimalFormat;
 
-//===================== NODE CLASS =====================
-// Postfix Expression Evaluation Using a Linked List Stack
 class Node {
     double data;
     Node next;
@@ -13,7 +11,6 @@ class Node {
     }
 }
 
-// ================= LINKED LIST CLASS ==================
 class LinkedList {
     protected Node head;
 
@@ -41,7 +38,6 @@ class LinkedList {
     }
 }
 
-// ====================== STACK CLASS ====================
 class StackLL extends LinkedList {
     void push(double value) {
         pushFront(value);
@@ -55,12 +51,10 @@ class StackLL extends LinkedList {
     }
 }
 
-// ===================== WRAPPER CLASS ====================
 class Wrapper {
     double x;
 }
 
-// ==================== MAIN CLASS ======================
 public class Main {
     public static boolean isNumber(String token, Wrapper value) {
         try {
@@ -136,7 +130,6 @@ public class Main {
         return true;
     }
 
-    // ================== MAIN FUNCTION ===================
     public static void main(String[] args) {
         DecimalFormat df = new DecimalFormat("0.00");
 
